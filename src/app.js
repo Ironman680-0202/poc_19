@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('CI/CD PoC Application is running successfully on Feature new edition');
+  res.send('CI/CD PoC Application is running successfully on Feature new edition.');
 });
 
 
